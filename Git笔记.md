@@ -34,9 +34,9 @@
 
 ​	git branch 《分支名》：新建分支
 
-​	git checkout -b  <分支名>：新建分支并切换到新建的分支
+​	git checkout -b  <a名>：新建分支并切换到新建的分支
 
-3. 拉取、提交操作
+3. 提交操作
 
 ​	git add . ：将当前项目文件加入到缓冲区
 
@@ -45,3 +45,9 @@
 ​	git push origin master：推送最新更改
 
 ​	git pull 《远程主机名》 《远程分支名》：拉取远程制定分支的更新并直接合并
+
+4. 拉取操作
+
+​	git fetch origin 《远程分支名》：拉取远程仓库的分支代码带缓冲区
+
+​	git pull origin 《远程分支名》：从远程分支上的内容都拉取到本地
